@@ -1,0 +1,18 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Trained model output (regenerate by running the notebook)
+models/*.pkl
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
