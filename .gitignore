@@ -8,6 +8,9 @@ __pycache__/
 # Trained model output (regenerate by running the notebook)
 models/*.pkl
 
+# Exported case data for the case-review dashboard (regenerable)
+case_data_export.json
+
 # Virtual environments
 venv/
 .venv/

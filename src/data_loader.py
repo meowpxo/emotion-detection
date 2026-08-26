@@ -23,6 +23,7 @@ def load_dataset(csv_path):
         Table with columns: tweet_id, sentiment, content
     """
     df = pd.read_csv(csv_path)
+    df = df.drop_duplicates(subset=["content", "sentiment"]).reset_index(drop=True)
     return df
 
 
